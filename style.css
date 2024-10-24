@@ -1,0 +1,136 @@
+.cont{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(255, 214, 127);
+}
+.logo img{
+    width: 100px;;
+    height: ;
+    border-radius: 50%;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+  
+
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+.menu ul li a:hover{
+    color: white;
+    background-color: rgb(0, 47, 255);
+    border-radius: 15px;
+}
+.button{
+    position: absolute;
+    top: 30px;
+    left: 70%;
+    padding: 15px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    background-color: rgb(220, 157, 20);
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.button a:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+/* Header part end */
+
+/* banner part in */
+.banner{
+    background: radial-gradient(rgba(100,10,100,0.5),rgba(255, 223, 40, 0.5)),url(./img/3.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+.banner h1{
+    color: rgb(0, 47, 255);
+    font-size: 30px;
+    padding-top:50px ;
+    margin-top: -2px;
+}
+.banner p{
+    font-size: 18px;
+    padding: 20px 50px;
+    color: rgb(255, 255, 255);
+    
+}
+.banner a{
+    background-color: rgb(15, 111, 255);
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+.banner a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+/* service pasrt in  */
+.service_titel span{
+    color: red;
+}
+.service_titel{
+    text-align: center;
+   
+}
+.service_titel h1{
+    font-size: 30px;
+}
+.service_titel p{
+    padding: 0 300px;
+}
+.card img{
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+}
+.service_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    
+   
+}
+.card{
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    padding: 20px;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 10px rgb(255, 17, 17); 
+}
+.card a{
+    color: crimson;
+    background-color: rgb(0, 255, 55);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.card a:hover{
+    color: aliceblue;
+    background-color: red;
+
+}
